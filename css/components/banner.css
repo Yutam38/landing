@@ -1,0 +1,50 @@
+.Banner {
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(../../images/Photo\ banner.png);
+  padding: 150px 0;
+}
+
+.Banner-info {
+  font-style: italic;
+}
+
+.Banner-info h2 {
+  text-shadow: 1px 2px 3px #000000;
+  -webkit-text-stroke: 1px #000;
+}
+
+.Banner-info p {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+  text-shadow: 1px 2px 3px #000000;
+  -webkit-text-stroke: 1px #000;
+}
+
+.Banner-button button {
+  display: inline-block;
+  background-color: #d29110;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: white;
+  font-size: 25px;
+  margin: 0;
+  font-family: cursive;
+  letter-spacing: 50%;
+}
+
+.Banner-button button:hover {
+  color: rgb(88, 255, 88);
+}

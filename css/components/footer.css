@@ -1,0 +1,22 @@
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color: #482b0c;
+}
+
+.fab {
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+}
+
+.links a i {
+  font-size: 50px;
+}
+
+i {
+  color: rgb(246, 217, 170);
+}
+
+i:hover {
+  color: chartreuse;
+}
